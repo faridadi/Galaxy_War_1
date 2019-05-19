@@ -1,4 +1,5 @@
 #include "Scoreboard.h"
+//file ini digunakan untuk menghandle render dari pertamahan dan pengurangan nyawa
 Scoreboard::Scoreboard(): Scoreboard({ 230, 230, 230 })
 {
 

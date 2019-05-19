@@ -1,4 +1,5 @@
 #include "GameManager.h"
+//file ini digunakan untuk mengandle game loop, game render dan game update dari seluruh game
 namespace Galaxy {
 	GameManager* GameManager::sInstance = NULL;
 	GameManager* GameManager::Instance() {

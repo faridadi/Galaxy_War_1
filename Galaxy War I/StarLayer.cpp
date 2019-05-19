@@ -1,4 +1,5 @@
 #include "StarLayer.h"
+//file ini digunakan untuk membuat layer bintak dimana setiap layer mempunyai banyak bintang
 StarLayer::StarLayer(int layer) {
 	for (int i = 0; i < STAR_COUNT; i++)
 		mStars[i] = new Star(layer);

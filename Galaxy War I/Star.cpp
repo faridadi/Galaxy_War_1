@@ -1,4 +1,5 @@
 #include "Star.h"
+//file ini digunakan untuk menghandle animasi 1 bintang
 bool Star::sScroll = false;
 void Star::Scroll(bool b) {
 	sScroll = b;

@@ -1,4 +1,5 @@
 #include "Graphics.h"
+//file ini digunakan untuk menghandle init Texture dari SDL,
 namespace Galaxy {
 	Graphics* Graphics::sInstance = NULL;
 	bool Graphics::sInitialized = false;

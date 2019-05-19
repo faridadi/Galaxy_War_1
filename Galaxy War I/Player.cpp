@@ -1,5 +1,5 @@
 #include "Player.h"
-
+//file ini digunakan untuk menghandle player dimana untuk meload gambarm meload animasi meledeak, menembak, dan menggerakkan nya
 Player::Player() {
 	mTimer = Timer::Instance();
 	mInput = InputManager::Instance();

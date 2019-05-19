@@ -1,4 +1,5 @@
 #include "Timer.h"
+//file untuk menghandle waktu di game, seperti Delta time, timescale
 namespace Galaxy {
 	Timer* Timer::sInstance = NULL;
 

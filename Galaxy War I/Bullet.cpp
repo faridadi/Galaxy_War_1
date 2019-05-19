@@ -1,5 +1,5 @@
 #include "Bullet.h"
-
+//file ini digunakan untuk embuat kelas peluru dimana mempunyai kecepatan dan texturnya
 Bullet::Bullet() {
 	mTimer = Timer::Instance();
 	mSpeed = 900.0f;

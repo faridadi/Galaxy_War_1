@@ -1,4 +1,5 @@
 #include "Texture.h"
+//file ini digunakan untuk menghandle Texture pada game
 namespace Galaxy {
 	//Texture full
 	Texture::Texture(std::string filename) {

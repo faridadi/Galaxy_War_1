@@ -1,4 +1,5 @@
 #include "StartScreen.h"
+//file ini digunakan untuk menghandle sceen saat di Main menu
 StartScreen::StartScreen() {
 
 	mInput = InputManager::Instance();

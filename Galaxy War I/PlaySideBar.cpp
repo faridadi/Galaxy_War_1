@@ -1,4 +1,5 @@
 #include "PlaySideBar.h"
+//file ini dibuat untuk menghandle sidebar saay=t gameplay
 PlaySideBar::PlaySideBar() {
 
 	mTimer = Timer::Instance();

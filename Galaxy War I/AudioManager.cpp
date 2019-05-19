@@ -1,4 +1,5 @@
 #include "AudioManager.h"
+//file ini digunakan untuk menghandle Audio bgm dan sfx
 namespace Galaxy {
 	AudioManager* AudioManager::sInstance = NULL;
 	AudioManager* AudioManager::Instance() {

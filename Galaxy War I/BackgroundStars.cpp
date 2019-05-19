@@ -1,4 +1,5 @@
 #include "BackgroundStars.h"
+//file ini dgunakan untuk menampilkan background bintang pada game
 BackgroundStars* BackgroundStars::sInstance = NULL;
 BackgroundStars* BackgroundStars::Instance() {
 	if (sInstance == NULL)

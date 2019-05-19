@@ -1,4 +1,5 @@
 #include "PlayScreen.h"
+//file ini digunakan untuk membuat sceen Play
 using namespace Galaxy;
 PlayScreen::PlayScreen() {
 	mTimer = Timer::Instance();

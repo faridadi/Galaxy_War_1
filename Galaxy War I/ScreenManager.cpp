@@ -1,4 +1,5 @@
 #include "ScreenManager.h"
+//file ini digubakan untuk menghandle Scean Manager agar mudah berpindah sceen
 ScreenManager* ScreenManager::sInstance = NULL;
 ScreenManager* ScreenManager::Instance() {
 	if (sInstance == NULL)

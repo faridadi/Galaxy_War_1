@@ -1,5 +1,6 @@
 #include "Level.h"
 #include <array>
+//file ini digunakan untuk menghandle game saat bermain, seperti mendeteksi tabrakan, ketika player mati, dan menghandle saat game over
 Level::Level(int stage, PlaySideBar* sidebar, Player* player) {
 	mTimer = Timer::Instance();
 	mColl = new Collider();

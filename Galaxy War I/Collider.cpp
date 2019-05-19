@@ -1,5 +1,5 @@
 #include"Collider.h"
-
+//file ini digunakan untuk menghandle collision
 /*
 Collider::Collider(ColliderType type):mType(type){
 	mDebugTexture = nullptr;

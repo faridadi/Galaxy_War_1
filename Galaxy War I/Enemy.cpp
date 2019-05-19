@@ -1,4 +1,5 @@
 #include "Enemy.h"
+//file ini digunakan untuk menghandle gameEntity Enemy dimana mempunyai arah, posisi, texture
 using namespace Galaxy;
 
 Enemy::Enemy(int speed, int pos, int type) {

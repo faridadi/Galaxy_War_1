@@ -1,4 +1,5 @@
 #include "GameEntity.h"
+//file ini untuk membuat sebuah game Entity dimana agar mudah diedit ukuran, posisi, rotasiny
 namespace Galaxy {
 	GameEntity::GameEntity(Vector2 pos) {
 		mPos = pos;

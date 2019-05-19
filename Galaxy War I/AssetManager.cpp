@@ -1,4 +1,5 @@
 #include "AssetManager.h"
+//File ini dogunakan untuk menghandle asset seperti Texture gambar, font,  agar terkontrol dana mudah saat penggunaannya
 namespace Galaxy {
 	AssetManager* AssetManager::sInstance = NULL;
 	AssetManager* AssetManager::Instance() {

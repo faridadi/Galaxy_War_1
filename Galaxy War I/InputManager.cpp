@@ -1,5 +1,6 @@
 #include <string.h>
 #include "InputManager.h"
+//file ini digunakan untuk menghandle Input maping Manager dari user
 namespace Galaxy {
 	InputManager* InputManager::sInstance = NULL;
 	InputManager* InputManager::Instance() {
