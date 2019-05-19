@@ -1,0 +1,30 @@
+#ifndef _ASSETMANAGER_H
+#define _ASSETMANAGER_H
+#include <map>
+#include "Graphics.h"
+#include <SDL_mixer.h>
+namespace Galaxy {
+	class AssetManager {
+	private:
+		static AssetManager* sInstance;
+		std::map<std::string, SDL_Texture*> mTextures;
+		std::map<std::string, SDL_Texture*> mText;
+		std::map<std::string, TTF_Font*> mFont;
+		std::map<std::string, Mix_Music*> mMusic;
+		std::map<std::string, Mix_Chunk*> mSFX;
+	public:
+		static AssetManager* Instance();
+		static void Release();
+		SDL_Texture* GetTexture(std::string filename);
+		SDL_Texture* GetText(std::string text, std::string filename, int size);
+		SDL_Texture* GetText(std::string text, std::string filename, int size, SDL_Color color);
+		Mix_Music* GetMusic(std::string filename);
+		Mix_Chunk* GetSFX(std::string filename);
+
+	private:
+		AssetManager();
+		~AssetManager();
+		TTF_Font* getFont(std::string filename, int size);
+	};
+}
+#endif
